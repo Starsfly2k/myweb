@@ -17,6 +17,11 @@ body {
     background-color: #F27123;
     padding: 25px 0;
     color: white;
+
+    position: sticky;   /* Cho phép dính lại */
+    top: 0;             /* Dính sát mép trên */
+    z-index: 1000;      /* Nằm trên các phần khác */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Bóng cho nổi */
 }
 
 .header-flex {
@@ -200,3 +205,4 @@ body {
 .back-link:hover {
     background-color: #d65f1d;
 }
+
